@@ -36,7 +36,7 @@ Before you run the unit test, make sure:
 \src\app\store\service\user.service.ts and \src\app\store\service\product.service.ts are set back to invoke the http calls.
  
 
-## Running unit tests
+## Running coverage tests
 
 Run `ng coverage` to execute the coverage on unit tests via [Karma](https://karma-runner.github.io). 
 
@@ -57,5 +57,3 @@ Run `ng lint` to execute the style check on files. Exclusion list is in .angular
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-
-
