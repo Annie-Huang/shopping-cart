@@ -1,0 +1,44 @@
+{
+    "id": "Ford",
+    "name": "Ford",
+    "pricingRules": [
+        {
+            "ruleName": "buyXQtyForYQtyPrice",
+            "productId": "classic",
+            "attributes": [
+                {
+                    "name": "xQty",
+                    "value": 5
+                },
+                {
+                    "name": "yQty",
+                    "value": 4
+                }
+            ]
+        },
+        {
+            "ruleName": "newUnitPrice",
+            "productId": "standout",
+            "attributes": [
+                {
+                    "name": "newPrice",
+                    "value": 309.99
+                }
+            ]
+        },
+        {
+            "ruleName": "newUnitPriceWithMinQty",
+            "productId": "premium",
+            "attributes": [
+                {
+                    "name": "minQty",
+                    "value": 3
+                },
+                {
+                    "name": "newPrice",
+                    "value": 389.99
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "id": "Unilever",
+    "name": "Unilever",
+    "pricingRules": [
+        {
+            "ruleName": "buyXQtyForYQtyPrice",
+            "productId": "classic",
+            "attributes": [
+                {
+                    "name": "xQty",
+                    "value": 3
+                },
+                {
+                    "name": "yQty",
+                    "value": 2
+                }
+            ]
+        }
+    ]
+}

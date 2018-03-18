@@ -1,0 +1,16 @@
+{
+    "id": "Apple",
+    "name": "Apple",
+    "pricingRules": [
+        {
+            "ruleName": "newUnitPrice",
+            "productId": "standout",
+            "attributes": [
+                {
+                    "name": "newPrice",
+                    "value": 299.99
+                }
+            ]
+        }
+    ]
+}

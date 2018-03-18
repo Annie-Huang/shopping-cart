@@ -1,0 +1,20 @@
+{
+    "id": "Nike",
+    "name": "Nike",
+    "pricingRules": [
+        {
+            "ruleName": "newUnitPriceWithMinQty",
+            "productId": "premium",
+            "attributes": [
+                {
+                    "name": "minQty",
+                    "value": 4
+                },
+                {
+                    "name": "newPrice",
+                    "value": 379.99
+                }
+            ]
+        }
+    ]
+}

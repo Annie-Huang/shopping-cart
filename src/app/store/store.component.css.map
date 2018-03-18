@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,IAAK;EACD,KAAK,EAAE,KAAK;;AAGhB,cAAe;EACX,UAAU,EAAE,MAAM;;AAGtB,gBAAiB;EACb,aAAa,EAAE,IAAI",
+"sources": ["store.component.scss"],
+"names": [],
+"file": "store.component.css"
+}

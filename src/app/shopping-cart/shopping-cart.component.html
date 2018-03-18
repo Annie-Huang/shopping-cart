@@ -1,0 +1,31 @@
+<div class='row' *ngIf="cart.total>0">
+    <div class='col-md-12'>
+        <div class='panel panel-info'>
+            <div class='panel-heading'>
+                Your Basket:
+            </div>
+            <div class='panel-body'>
+                <div class='row'>
+                    <div class='col-md-12' *ngFor="let cartItem of cart.items">
+                        <div class='row'>
+                            <div class='col-md-2'>{{cartItem.product.name}}</div>
+                            <div class='col-md-2'>Unit Price: ${{cartItem.product.price}}</div>
+                            <div class='col-md-2'>Quantity: {{cartItem.quantity}}</div>
+                            <div class='col-md-2'>Subtotal: ${{cartItem.subTotal}}</div>
+                        </div>
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class='col-md-12'>
+                        <h4>
+                            Total: ${{cart.total}}
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <div class='panel-footer'>
+                <button type="button" class="btn btn-lg btn-primary">Checkout</button>
+            </div>
+        </div>
+    </div>
+</div>
